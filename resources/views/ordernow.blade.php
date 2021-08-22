@@ -31,9 +31,9 @@
                 </div>
                 <div class="form-group">
                   <label for="pay">Payment Methode:</label><br><br>
-                  <input type="radio" value="cash" name="payement" ><span>Online payement</span><br><br>
-                  <input type="radio" value="cash" name="payement" ><span>EMI payement</span><br><br>
-                  <input type="radio" value="cash" name="payement" ><span>Payement On Delivery</span><br><br>
+                  <input type="radio" value="Online payement" name="payement" ><span>Online payement</span><br><br>
+                  <input type="radio" value="EMI payement" name="payement" ><span>EMI payement</span><br><br>
+                  <input type="radio" value="Payement On Delivery" name="payement" ><span>Payement On Delivery</span><br><br>
                 </div>
               
                 <button type="submit" class="btn btn-default">Order Now</button>
