@@ -28,6 +28,8 @@
             </div>
           </div>
           @endforeach
+
+          {{$products->links()}}
           </div>
           <a class="btn btn-success" href="/ordernow">Order Now</a><br><br>
     </div>

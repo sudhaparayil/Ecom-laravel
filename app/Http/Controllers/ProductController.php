@@ -59,7 +59,8 @@ class ProductController extends Controller
         ->join('products','cart.product_id','=','products.id')
         ->where('cart.user_id',$userId)
         ->select('products.*','cart.id as cart_id')
-        ->get();
+        ->paginate(3);
+       // ->get();
       // return $products;
         return view('cartlist',['products'=> $products]);
 
